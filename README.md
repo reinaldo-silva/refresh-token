@@ -1,4 +1,4 @@
-# Título do projeto
+# Exemplo de Refresh Token
 
 Exemplo de como realizar autenticação e refresh token com Node, TypeScript e PostgreSQL
 
@@ -23,7 +23,6 @@ Tenha o docker instalado em sua máquina para criar uma imagem do PostgreSQL loc
 Node será utilizado para roda sua aplicação.
 
 * [Node](https://nodejs.org/pt-br/download/) - Site para baixar e instalar o Node
-
 
 ### 🔧 Instalação
 
@@ -75,27 +74,23 @@ yarn dev
 
 E pronto, sua aplicação já está funcionando.
 
+## Rotas para testar com o Insomina
 
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Refresh-token&uri=https%3A%2F%2Fgithub.com%2Freinaldo-silva%2Frefresh-token%2Fblob%2Fmain%2FinsominiaJson.json)
 
 ## 🛠️ Construído com
 
 Mencione as ferramentas que você usou para criar seu projeto
 
-* [Node](https://nodejs.org/pt-br/) - Para o desenvolvimento da aplicaçao
+* [Node](https://nodejs.org/pt-br/) - Para o desenvolvimento da aplicação
 * [TypeScript](https://www.typescriptlang.org/pt/) - Superset do JavaScript
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
+* [JWT](https://jwt.io/) - Usado para criar os tokens
+* [PostgreSql](https://www.postgresql.org/) - Banco de dados utilizado
+* [Docker](https://www.docker.com/) - Docker
 
 ## ✒️ Autores
 
 * **Desenvolvedor** - *Realizou todo projeto* - [Reinaldo Silva](https://github.com/reinaldo-silva)
-
-<!-- ## 🎁 Expressões de gratidão
-
-* Conte a outras pessoas sobre este projeto 📢
-* Convide alguém da equipe para uma cerveja 🍺
-* Obrigado publicamente 🤓.
-* etc. -->
-
 
 ---
 [Reinaldo Silva](https://github.com/reinaldo-silva) 😊
